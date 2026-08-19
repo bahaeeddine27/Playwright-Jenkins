@@ -13,7 +13,7 @@ pipeline{
         }
         stage('Lancement de tests'){
             steps{
-                sh 'npx playwright test'
+                sh 'npx playwright test' 
             }
         }
     }
